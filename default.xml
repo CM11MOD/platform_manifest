@@ -534,7 +534,7 @@
 
   <!--Additional Package-->
   <project path="packages/apps/GPSOptimizer" name="android_packages_apps_GPSOptimizer" remote="burstlam" revision="master" />
-  <project path="packages/apps/HostsFileManager" name="packages_apps_HostsFileManager" remote="burstlam" revision="du43" />
+  <project path="packages/apps/HostsFileManager" name="packages_apps_HostsFileManager" remote="burstlam" revision="kitkat" />
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="burstlam" revision="cm11mod" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="burstlam" revision="cm11mod" />
   <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
