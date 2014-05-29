@@ -530,6 +530,11 @@
   <project path="device/samsung/galaxys2-common" name="CyanogenMod/android_device_samsung_galaxys2-common" remote="github" revision="cm-11.0" />
   <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="burstlam" revision="cm11mod" />
 
+  <!--Pantech IM-900S-->
+  <project path="device/qcom/common" name="android_device_qcom_common" />
+  <project path="device/pantech/msm8974-common" name="android_device_pantech_msm8974-common" remote="burstlam" revision="cm11mod" />
+  <project path="device/pantech/ef60s" name="android_device_pantech_ef60s" remote="burstlam" revision="cm11mod" />
+  <project path="vendor/pantech/ef60s" name="android_vendor_pantech_ef60s" remote="burstlam" revision="cm-11.0" />
 
   <!--Additional Package-->
   <project path="packages/apps/GPSOptimizer" name="android_packages_apps_GPSOptimizer" remote="burstlam" revision="master" />
