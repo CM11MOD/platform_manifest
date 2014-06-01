@@ -553,12 +553,11 @@
 
   <!-- third party toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="arm-eabi-4.7" remote="burstlam" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/LK" name="LINARO-KERNEL" remote="burstlam" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/LINARO" name="LINARO" remote="burstlam" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="LINARO-OTTER" remote="burstlam" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="linaro-arm-eabi-4.8" remote="burstlam" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="arm-linux-androideabi-4.7" remote="burstlam" 
 revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="arm-linux-androideabi-4.8-linaro" remote="burstlam" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="arm-linux-androideabi-4.8" remote="burstlam" 
 revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="arm-linux-androideabi-4.9" remote="burstlam" revision="master" />
