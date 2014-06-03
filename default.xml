@@ -399,7 +399,7 @@
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="burstlam" revision="cm11mod" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="omni" revision="android-4.4"/>
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="burstlam" revision="cm11mod"/>
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock"  remote="burstlam" revision="cm11mod"/>
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="burstlam" revision="cm11mod"/>
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" />
@@ -505,8 +505,10 @@
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="vendor/cm" name="android_vendor_cm" remote="burstlam" revision="cm11mod" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" />
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" />
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" />
+
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="burstlam" revision="cm11mod"/>
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="burstlam" revision="cm11mod"/>
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="burstlam" revision="cm11mod"/>
 
   <!-- Additional vendors -->
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-11.0" />
