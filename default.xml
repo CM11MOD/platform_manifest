@@ -543,6 +543,7 @@
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="burstlam" revision="cm11mod" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="burstlam" revision="cm11mod" />
   <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="github" revision="cm-11.0" />
 
   <!-- Slim Recent -->
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="kk4.4" />
