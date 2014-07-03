@@ -130,7 +130,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
-  <project path="external/clang" name="android_external_clang" remote="burstlam" revision="cm11mod-linaro" />
+  <project path="external/clang" name="android_external_clang" remote="burstlam" revision="kk-mr2" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" />
   <project path="external/curl" name="external_curl" remote="vanir" revision="kk44" />
   <project path="external/dexmaker" name="android_external_dexmaker" />
