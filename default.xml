@@ -56,6 +56,8 @@
           fetch="https://github.com/MWisBest" />
   <remote name="tm"
           fetch="git://github.com/TheMuppets/" />
+  <remote name="linaro-other"
+          fetch="git://git.linaro.org/" />
 
   <default revision="cm-11.0"
           sync-j="12"
@@ -188,7 +190,7 @@
   <project path="external/jhead" name="android_external_jhead" groups="pdk" />
   <project path="external/jmdns" name="android_external_jmdns" />
   <project path="external/jmonkeyengine" name="android_external_jmonkeyengine" />
-  <project path="external/jpeg" name="external_jpeg" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="external/jpeg" name="people/ragesh.radhakrishnan/libjpeg-turbo" remote="linaro-other" revision="libjpeg-turbo" />
   <project path="external/jsilver" name="android_external_jsilver" />
   <project path="external/jsr305" name="android_external_jsr305" />
   <project path="external/junit" name="android_external_junit" />
