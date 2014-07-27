@@ -569,6 +569,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="arm-linux-androideabi-4.7" remote="burstlam" 
 revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="arm-linux-androideabi-4.8-linaro" remote="burstlam" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" remote="linaro" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="arm-linux-androideabi-4.8" remote="burstlam" 
 revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="arm-linux-androideabi-4.9" remote="burstlam" revision="master" />
