@@ -215,7 +215,7 @@
   <project path="external/libnl-headers" name="android_external_libnl-headers" groups="pdk" />
   <project path="external/libogg" name="android_external_libogg" />
   <project path="external/libpcap" name="android_external_libpcap" />
-  <project path="external/libphonenumber" name="android_external_libphonenumber" />
+  <project path="external/libphonenumber" name="android_external_libphonenumber" remote="burstlam" revision="kk-mr2"/>
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="external_libpng" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/libppp" name="android_external_libppp" />
