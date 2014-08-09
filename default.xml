@@ -346,7 +346,7 @@
   <project path="frameworks/support" name="frameworks_support" remote="vanir" revision="kk44" />
   <project path="frameworks/testing" name="android_frameworks_testing" />
   <project path="frameworks/volley" name="android_frameworks_volley" />
-  <project path="frameworks/webview" name="frameworks_webview" remote="vanir" revision="kk44" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="burstlam" revision="kk-mr2" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" revision="kk44" />
   <project path="hardware/akm" name="android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
