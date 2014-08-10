@@ -190,7 +190,7 @@
   <project path="external/jhead" name="android_external_jhead" groups="pdk" />
   <project path="external/jmdns" name="android_external_jmdns" />
   <project path="external/jmonkeyengine" name="android_external_jmonkeyengine" />
-  <project path="external/jpeg" name="people/ragesh.radhakrishnan/libjpeg-turbo" remote="linaro-other" revision="libjpeg-turbo" />
+  <project path="external/jpeg" name="external_jpeg" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/jsilver" name="android_external_jsilver" />
   <project path="external/jsr305" name="android_external_jsr305" />
   <project path="external/junit" name="android_external_junit" />
