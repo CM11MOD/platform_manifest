@@ -339,7 +339,7 @@
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="burstlam" revision="cm11mod" />
   <project path="frameworks/opt/inputmethodcommon" name="android_frameworks_opt_inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="android_frameworks_opt_mailcommon" />
-  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" />
+  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="burstlam" revision="kk-mr2" />
   <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="vanir" revision="kk44" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="burstlam" revision="kk-mr2" />
