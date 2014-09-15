@@ -407,7 +407,7 @@
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="burstlam" revision="kk-mr2" />
   <project path="packages/apps/EOSWeather" name="packages_apps_EOSWeather" remote="burstlam" revision="kk-mr2" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="burstlam" revision="kk-mr2" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="burstlam" revision="kk-mr2" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="burstlam" revision="kk-mr2" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="burstlam" revision="kk-mr2" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
