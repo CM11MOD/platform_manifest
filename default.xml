@@ -535,8 +535,8 @@
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
 
   <!--device repo-->
-  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="burstlam" revision="kk-mr2" />
-  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="burstlam" revision="kk-mr2" />
+  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="burstlam" revision="cm11mod" />
+  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="burstlam" revision="cm11mod" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="burstlam" revision="kk-mr2" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="burstlam" revision="kk-mr2" />
   <!--<project path="kernel/samsung/tuna" name="burstlam/leanKernel" revision="bk12" />-->
