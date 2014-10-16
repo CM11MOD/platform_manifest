@@ -252,6 +252,7 @@
   <project path="external/mp4parser" name="android_external_mp4parser" />
   <project path="external/mtpd" name="android_external_mtpd" />
   <project path="external/naver-fonts" name="android_external_naver-fonts" />
+  <project path="external/nano" name="android_external_nano" />
   <project path="external/netcat" name="android_external_netcat" />
   <project path="external/netperf" name="android_external_netperf" />
   <project path="external/neven" name="android_external_neven" />
