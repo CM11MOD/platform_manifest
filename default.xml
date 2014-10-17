@@ -71,6 +71,8 @@
   <project path="art" name="android_art" remote="burstlam" revision="kk-mr2"/>
   <project path="bionic" name="android_bionic" remote="burstlam" revision="kk-mr2"/>
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
+  <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" />
+  <project path="bootable/recovery-cm" name="android_bootable_recovery-cm" />
   <project path="cts" name="platform/cts"  remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="dalvik" name="android_dalvik" remote="burstlam" revision="kk-mr2" />
   <project path="development" name="android_development" remote="burstlam" revision="kk-mr2" />
