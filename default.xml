@@ -98,7 +98,7 @@
   <project path="external/apache-qp" name="android_external_apache-qp" />
   <project path="external/apache-xml" name="android_external_apache-xml" />
   <project path="external/arduino" name="android_external_arduino" />
-  <project path="external/bash" name="external_bash" remote="vanir" revision="kk44" />
+  <project path="external/bash" name="external_bash" remote="burstlam" revision="cm-11.0" />
   <project path="external/bison" name="android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="android_external_blktrace" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" groups="pdk" remote="vanir" revision="kk44" />
@@ -299,7 +299,7 @@
   <project path="external/smali" name="android_external_smali" />
   <project path="external/sonivox" name="external_sonivox" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/speex" name="external_speex" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="external/sqlite" name="external_sqlite" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="external/sqlite" name="external_sqlite" remote="burstlam" revision="kk-mr2" groups="pdk" />
   <project path="external/square/dagger" name="android_external_square_dagger" />
   <project path="external/square/javawriter" name="android_external_square_javawriter" />
   <project path="external/spongycastle" name="android_external_spongycastle" />
@@ -404,7 +404,7 @@
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="kk44" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="vanir" revision="kk44" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="burstlam" revision="kk-mr2"/>
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="burstlam" revision="cm11mod" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="burstlam" revision="kk-mr2" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="burstlam" revision="kk-mr2"/>
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="burstlam" revision="kk-mr2" />
