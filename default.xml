@@ -581,8 +581,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="LINARO-OTTER" remote="burstlam" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="linaro" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" remote="linaro" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="arm-linux-androideabi-4.8-linaro" remote="burstlam" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="arm-linux-androideabi-4.9-linaro" remote="burstlam" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="burstlam" 
 revision="kk4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="burstlam" revision="kk4.4" />
