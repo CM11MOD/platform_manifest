@@ -70,11 +70,13 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="art" name="android_art" remote="burstlam" revision="kk-mr2"/>
   <project path="bionic" name="android_bionic" remote="burstlam" revision="kk-mr2"/>
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="bootable/recovery-cm" name="android_bootable_recovery-cm" />
+  <project path="bootable/recovery-philz" name="PhilZ-cwm6/philz_touch_cwm6" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="bootable/recovery-twrp" name="bootable_recovery_TWRP" groups="pdk" remote="vanir" revision="kk44" />
   <project path="cts" name="platform/cts"  remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="dalvik" name="android_dalvik" remote="burstlam" revision="kk-mr2" />
+  <project path="dalvik" name="dalvik" remote="vanir" revision="kk44" />
   <project path="development" name="android_development" remote="burstlam" revision="kk-mr2" />
   <project path="device/common" name="android_device_common" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
@@ -82,6 +84,7 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="kk44" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="vanir" revision="kk44" />
   <project path="device/sample" name="android_device_sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
@@ -98,7 +101,7 @@
   <project path="external/apache-qp" name="android_external_apache-qp" />
   <project path="external/apache-xml" name="android_external_apache-xml" />
   <project path="external/arduino" name="android_external_arduino" />
-  <project path="external/bash" name="android_external_bash" remote="burstlam" revision="cm-11.0" />
+  <project path="external/bash" name="external_bash" remote="vanir" revision="kk44" />
   <project path="external/bison" name="android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="android_external_blktrace" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" groups="pdk" remote="vanir" revision="kk44" />
@@ -149,7 +152,7 @@
   <project path="external/doclava" name="android_external_doclava" />
   <project path="external/dropbear" name="android_external_dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="burstlam" revision="cm11mod-linaro" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="burstlam" revision="kk-mr2" />
   <project path="external/easymock" name="android_external_easymock" />
   <project path="external/ebtables" name="android_external_ebtables" />
   <project path="external/eclipse-basebuilder" name="android_external_eclipse-basebuilder" />
@@ -209,7 +212,7 @@
   <project path="external/klogripper" name="external_klogripper" remote="vanir" revision="kk44" />
   <project path="external/koush/ion" name="ion" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" />
-  <project path="external/koush/Superuser" name="Superuser" />
+  <project path="external/koush/Superuser" name="Superuser" remote="vanir" revision="kk44" />
   <project path="external/koush/Widgets" name="Widgets" />
   <project path="external/libcap-ng" name="android_external_libcap-ng" />
   <project path="external/libexif" name="platform/external/libexif" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
@@ -243,7 +246,7 @@
   <project path="external/libyuv" name="android_external_libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="external_linux-tools-perf" remote="vanir" revision="kk44" />
   <project path="external/littlemock" name="android_external_littlemock" />
-  <project path="external/llvm" name="android_external_llvm" remote="burstlam" revision="cm11mod-linaro" />
+  <project path="external/llvm" name="external_llvm" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/lzma" name="platform/external/lzma"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/lrzsz" name="external_lrzsz" remote="vanir" revision="kk44" />
   <project path="external/lsof" name="external_lsof" remote="vanir" revision="kk44" />
@@ -256,8 +259,8 @@
   <project path="external/mockito" name="platform/external/mockito" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/mp4parser" name="android_external_mp4parser" />
   <project path="external/mtpd" name="android_external_mtpd" />
-  <project path="external/naver-fonts" name="android_external_naver-fonts" />
   <project path="external/nano" name="android_external_nano" />
+  <project path="external/naver-fonts" name="android_external_naver-fonts" />
   <project path="external/netcat" name="android_external_netcat" />
   <project path="external/netperf" name="android_external_netperf" />
   <project path="external/neven" name="android_external_neven" />
@@ -300,12 +303,12 @@
   <project path="external/sonivox" name="external_sonivox" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/speex" name="external_speex" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/sqlite" name="external_sqlite" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="external/spongycastle" name="android_external_spongycastle" />
   <project path="external/square/dagger" name="android_external_square_dagger" />
   <project path="external/square/javawriter" name="android_external_square_javawriter" />
-  <project path="external/spongycastle" name="android_external_spongycastle" />
   <project path="external/srec" name="android_external_srec" />
   <project path="external/srtp" name="android_external_srtp" />
-  <project path="external/stlport" name="android_external_stlport" remote="burstlam" revision="kk-mr2" />
+  <project path="external/stlport" name="external_stlport" remote="vanir" revision="kk44" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" />
   <project path="external/strace" name="android_external_strace" />
   <project path="external/stressapptest" name="android_external_stressapptest" />
@@ -321,9 +324,9 @@
   <project path="external/v8" name="external_v8" remote="vanir" revision="kk44" />
   <project path="external/valgrind" name="android_external_valgrind" groups="pdk"/>
   <project path="external/vim" name="android_external_vim" />
-  <project path="external/webp" name="android_external_webp" remote="burstlam" revision="kk-mr2" />
+  <project path="external/webp" name="external_webp" remote="vanir" revision="kk44" />
   <project path="external/webrtc" name="android_external_webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="burstlam" revision="cm11mod"/>
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="burstlam" revision="kk-mr2"/>
   <project path="external/wpa_supplicant_8_ti" name="external_wpa_supplicant_8_ti" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/xmlwriter" name="android_external_xmlwriter" />
   <project path="external/xmp/toolkit" name="android_external_xmp_toolkit" />
@@ -340,9 +343,11 @@
   <project path="frameworks/ml" name="android_frameworks_ml" />
   <project path="frameworks/native" name="android_frameworks_native" remote="burstlam" revision="kk-mr2" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" />
+  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" />
+  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="slim" revision="kk4.4"/>
   <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" />
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="burstlam" revision="kk-mr2" />
   <project path="frameworks/opt/inputmethodcommon" name="android_frameworks_opt_inputmethodcommon" />
@@ -351,8 +356,6 @@
   <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="vanir" revision="kk44" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="burstlam" revision="kk-mr2" />
-  <!--<project path="frameworks/opt/telephony-msim" name="android_frameworks_opt_telephony-msim" />-->
-  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="slim" revision="kk4.4"/>
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="burstlam" revision="kk-mr2" />
@@ -387,8 +390,8 @@
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="hardware_ril" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="hardware/samsung" name="android_hardware_samsung" />
-  <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" revision="kk44" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="vanir" revision="kk44" />
+  <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-11.0" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="burstlam" revision="kk-mr2" />
@@ -397,7 +400,7 @@
   <project path="libcore" name="android_libcore" remote="burstlam" revision="kk-mr2"/>
   <project path="libnativehelper" name="android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="burstlam" revision="cm11mod"/>
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="burstlam" revision="kk-mr2"/>
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="burstlam" revision="kk-mr2"/>
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" />
@@ -419,16 +422,17 @@
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="burstlam" revision="kk-mr2" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="burstlam" revision="cm11mod"/>
-  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock"  remote="burstlam" revision="cm11mod"/>
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="burstlam" revision="kk-mr2"/>
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock"  remote="burstlam" revision="kk-mr2"/>
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="burstlam" revision="kk-mr2"/>
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="kk44" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="burstlam" revision="kk-mr2" />
+  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="burstlam" revision="kk-mr2" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="burstlam" revision="kk-mr2" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" revision="kk44" />
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="burstlam" revision="kk-mr2" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" revision="kk44" />
@@ -452,7 +456,6 @@
   <project path="packages/screensavers/Basic" name="android_packages_screensavers_Basic" />
   <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="burstlam" revision="kk-mr2" />
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="android_packages_wallpapers_HoloSpiral" />
@@ -479,16 +482,23 @@
   <project path="prebuilts/clang/linux-x86/host/msm-3.4" name="prebuilts_clang_linux-x86_host_msm-3.4" remote="bart" revision="master" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="notdefault,pdk,darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="notdefault,pdk,darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="vanir" revision="kk44" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="vanir" revision="kk44" />
+  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2014" remote="vanir" revision="kk44" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="vanir" revision="kk44" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="linaro" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" remote="linaro" revision="master" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="vanir" revision="kk44" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk"  groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin"  remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux"  remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
@@ -498,19 +508,19 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools"  groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="sdk" name="android_sdk" />
   <project path="system/core" name="android_system_core" remote="burstlam" revision="kk-mr2" />
-  <project path="system/extras" name="android_system_extras" groups="pdk" />
+  <project path="system/extras" name="system_extras" remote="vanir" revision="kk44" groups="pdk" />
   <project path="system/media" name="android_system_media" remote="burstlam" revision="kk-mr2" />
   <project path="system/netd" name="android_system_netd" groups="pdk" />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="vanir" revision="kk44" />
   <project path="system/security" name="system_security" remote="vanir" revision="kk44" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="burstlam" revision="kk-mr2" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools"  remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools"  remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="vendor/cm" name="android_vendor_cm" remote="burstlam" revision="kk-mr2" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" />
+  <project path="vendor/extra" name="vendor_qcom_opt" remote="vanir" revision="kk44" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="burstlam" revision="kk-mr2" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="burstlam" revision="cm-11.0"/>
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="burstlam" revision="cm11mod"/>
@@ -523,9 +533,10 @@
   <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" remote="github" revision="cm-11.0" />
   <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="github" revision="cm-11.0" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-11.0" />
-  <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-11.0" />
+  <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="github" revision="cm-11.0" />
+  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-11.0" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
-  <project path="vendor/extra" name="vendor_qcom_opt" remote="vanir" revision="kk44" />
+  <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-11.0" />
 
   <!--device repo-->
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="burstlam" revision="cm11mod" />
@@ -540,44 +551,26 @@
   <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="burstlam" revision="kk-mr2" />
 
   <!--One Plus One bacon-->
-  <project path="device/qcom/common" name="android_device_qcom_common" />
   <project path="device/oneplus/bacon" name="android_device_oneplus_bacon" remote="burstlam" revision="kk-mr2" />
   <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" remote="burstlam" revision="kk-mr2" />
   <project path="device/oppo/common" name="android_device_oppo_common" remote="burstlam" revision="kk-mr2" />
   <project path="kernel/oneplus/msm8974" name="android_kernel_oneplus_msm8974" remote="burstlam" revision="cm-11.0" />
   <project path="frameworks/opt/connectivity" name="android_frameworks_opt_connectivity" />
-  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-11.0" />
-  <project path="vendor/oneplus" name="vendor_oneplus" remote="burstlam" revision="kitkat" />
 
   <!--Additional Package-->
   <project path="packages/apps/GPSOptimizer" name="android_packages_apps_GPSOptimizer" remote="burstlam" revision="master" />
   <project path="packages/apps/HostsFileManager" name="packages_apps_HostsFileManager" remote="burstlam" revision="kitkat" />
-  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="burstlam" revision="kk-mr2" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="burstlam" revision="cm11mod" />
   <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
-  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="github" revision="cm-11.0" />
-  <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" remote="github" revision="cm-11.0" />
-
-  <!-- Slim Recent -->
-  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="kk4.4" />
 
   <!-- DashClock widget -->
   <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="slim" revision="kk4.4" />
-
-  <!-- seperate lines-->
 
   <!-- Addition Wifi Display Support-->
   <project path="packages/apps/WFD" name="android_packages_apps_WFD" remote="burstlam" revision="master"/>
   <project path="packages/apps/Mira4U" name="android_packages_apps_Mira4U" remote="burstlam" revision="cm11mod"/>
 
-  <!-- seperate lines-->
-
   <!-- third party toolchains -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="LINARO-OTTER" remote="burstlam" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="arm-linux-androideabi-4.8-linaro" remote="burstlam" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="arm-linux-androideabi-4.9-linaro" remote="burstlam" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="burstlam" 
 revision="kk4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="burstlam" revision="kk4.4" />
