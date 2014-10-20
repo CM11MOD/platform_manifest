@@ -302,7 +302,7 @@
   <project path="external/smali" name="android_external_smali" />
   <project path="external/sonivox" name="external_sonivox" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/speex" name="external_speex" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="external/sqlite" name="external_sqlite" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="burstlam" revision="kk-mr2" />
   <project path="external/spongycastle" name="android_external_spongycastle" />
   <project path="external/square/dagger" name="android_external_square_dagger" />
   <project path="external/square/javawriter" name="android_external_square_javawriter" />
