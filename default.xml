@@ -104,7 +104,7 @@
   <project path="external/bash" name="android_external_bash" remote="burstlam" revision="kk-mr2" />
   <project path="external/bison" name="android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="SlimSaber/android_external_bluetooth_bluedroid" remote="github" revision="cm-11.0" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" groups="pdk" remote="vanir" revision="kk44" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" />
   <project path="external/bsdiff" name="android_external_bsdiff" groups="pdk" />
   <project path="external/bson" name="android_external_bson" />
@@ -365,7 +365,7 @@
   <project path="frameworks/webview" name="android_frameworks_webview" remote="burstlam" revision="kk-mr2" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" revision="kk44" />
   <project path="hardware/akm" name="android_hardware_akm" groups="pdk" />
-  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="github" revision="cm-11.0" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="hardware_cm" remote="vanir" revision="kk44" />
   <project path="hardware/invensense" name="hardware_invensense" remote="vanir" revision="kk44" />
@@ -373,7 +373,7 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="vanir" revision="kk44" groups="pdk" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="vanir" revision="kk44" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="vanir" revision="kk44" groups="caf" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="aosp44 qcom" remote="vanir" revision="kk44"/>
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="kk44" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="vanir" revision="kk44" groups="caf" />
@@ -402,7 +402,7 @@
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="burstlam" revision="kk-mr2"/>
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="SlimSaber/packages_apps_Bluetooth" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="vanir" revision="kk44" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="kk44" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="vanir" revision="kk44" />
