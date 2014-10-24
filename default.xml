@@ -64,7 +64,7 @@
           remote="cm" />
 
   <project path="manifest" name="burst7shot/platform_manifest" remote="github" revision="cm11mod" />
-  <project path="build" name="android_build" remote="burstlam" revision="kk-mr2.1-theme" />
+  <project path="build" name="android_build" remote="burstlam" revision="kk-mr2.1-newtheme" />
       <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
