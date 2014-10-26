@@ -322,7 +322,7 @@
   <project path="external/tinyxml2" name="android_external_tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" groups="pdk" />
   <project path="external/v8" name="external_v8" remote="vanir" revision="kk44" />
-  <project path="external/valgrind" name="android_external_valgrind" groups="pdk"/>
+  <project path="external/valgrind" name="android_external_valgrind" remote="burstlam" revision="kk-mr2"/>
   <project path="external/vim" name="android_external_vim" />
   <project path="external/webp" name="external_webp" remote="vanir" revision="kk44" />
   <project path="external/webrtc" name="android_external_webrtc" groups="pdk" />
