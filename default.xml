@@ -69,7 +69,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="art" name="android_art" remote="burstlam" revision="kk-mr2"/>
-  <project path="bionic" name="android_bionic" remote="burstlam" revision="kk-mr2"/>
+  <project path="bionic" name="android_bionic" remote="burstlam" revision="kk-mr2.1"/>
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="bootable/recovery-cm" name="android_bootable_recovery-cm" />
@@ -397,7 +397,7 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="burstlam" revision="kk-mr2" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" />
-  <project path="libcore" name="android_libcore" remote="burstlam" revision="kk-mr2"/>
+  <project path="libcore" name="android_libcore" remote="burstlam" revision="kk-mr2.1"/>
   <project path="libnativehelper" name="android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="burstlam" revision="kk-mr2"/>
